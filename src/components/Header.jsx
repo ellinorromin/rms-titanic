@@ -1,15 +1,20 @@
 import { useNavigate } from "react-router"
+import './Header.css'
 
 function Header() {
 
 const navigate = useNavigate();
 
   return (
-    <header>
-        <img src="" alt="Bild på skeppet RMS Titanic" /> {/*bild på titanic*/}
-        <nav>
-            <ul>
+    <header className="header">
+        <img 
+        className="header__img"
+        src="../src/assets/titanic-header.jpg"
+        alt="Bild på skeppet RMS Titanic" /> {/*bild på titanic*/}
+        <nav className="navbar">
+            <ul className="navbar__ul">
                 <li
+                    className="navbar__li"
                     onClick={()=>{
                         navigate("/")
                     }}
@@ -17,6 +22,7 @@ const navigate = useNavigate();
                     Home
                 </li>
                 <li
+                    className="navbar__li"
                     onClick={()=>{
                         navigate("/people")
                     }}
@@ -24,6 +30,7 @@ const navigate = useNavigate();
                     People
                 </li>
                 <li
+                    className="navbar__li"
                     onClick={()=>{
                         navigate("/movies")
                     }}
