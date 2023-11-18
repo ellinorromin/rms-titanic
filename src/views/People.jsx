@@ -8,7 +8,7 @@ function People() {
     name: "Bruce Ismay",
     role: "Owner of the White Star Line",
     survived: true,
-    info: "The owner of the company that owned the Titanic. Helped people onboard lifeboats until the last one was off. Entered that one himself. Good for you, Bruce!",
+    info: "The owner of the company that owned the Titanic. Helped people onboard lifeboats until the last one was off. Entered that one himself. Good for you, Bruce! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     img: "../src/assets/Bruce_Ismay.jpeg"
   }
 
