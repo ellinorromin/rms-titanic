@@ -24,7 +24,6 @@ function Person(prop) {
   }, [])
 
     const {info, name, role, survived, img} = prop.prop;
-    console.log(info, name, role, survived);
 
   return (
     <article>

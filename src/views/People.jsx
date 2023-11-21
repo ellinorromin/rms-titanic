@@ -16,7 +16,7 @@ function People() {
     name: "Thomas Andrews",
     role: "Main architect of the Titanic",
     survived: false,
-    info: "Managing director and head of the drafting department of the shipbuilding company Harland and Wolff in Belfast, Ireland. Last seen standing in the dining room looking at the clock.",
+    info: "Managing director and head of the drafting department of the shipbuilding company Harland and Wolff in Belfast, Ireland. Last seen standing in the dining room looking at the clock. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     img: "../src/assets/Thomas_Andrews.jpg"
   }
 
@@ -24,7 +24,7 @@ function People() {
     name: "Edward J. Smith",
     role: "Captain of the Titanic",
     survived: false,
-    info: "The Captain of the ship, who was meant to retire just after the maiden voyage. Did not enter a lifeboat. Also ignored iceberg warnings, so... that happened.",
+    info: "The Captain of the ship, who was meant to retire just after the maiden voyage. Did not enter a lifeboat. Also ignored iceberg warnings, so... that happened. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     img: "../src/assets/edward_j_smith.jpg"
   }
 
