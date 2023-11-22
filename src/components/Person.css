@@ -5,3 +5,7 @@ article{
 img{
     max-height: 20rem;
 }
+
+ul{
+    padding: 1rem 2rem 1rem 2rem;
+}

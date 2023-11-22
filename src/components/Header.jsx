@@ -9,8 +9,8 @@ const navigate = useNavigate();
     <header className="header">
         <img 
         className="header__img"
-        src="../src/assets/titanic-header.jpg"
-        alt="Bild på skeppet RMS Titanic" /> {/*bild på titanic*/}
+        src="../src/assets/titanic-cropped.png"
+        alt="Bild på skeppet RMS Titanic" />
         <nav className="navbar">
             <ul className="navbar__ul">
                 <li
