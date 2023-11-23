@@ -36,10 +36,15 @@ p{
   font-size: 19px;
 }
 
+a{
+  color: #faf9f6e9;
+}
+
 main h1{
   font-size: 2em;
 }
 
 img{
-  max-width: max-content;
+  max-height: 50vh;
+  max-width: 60vw;
 }
