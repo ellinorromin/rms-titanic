@@ -24,8 +24,9 @@ const savedFromTheTitanic = {
 
 function Movies() {
   return (
-    <main>
+    <main className="movies__main">
         <Header />
+        <h1 className="pageHeader">Filmer om Titanic</h1>
         <ul>
           <li>
             <Movie prop={titanic1996}/>

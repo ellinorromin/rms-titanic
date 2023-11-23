@@ -6,31 +6,34 @@ function People() {
 
   const bruceIsmay = {
     name: "Bruce Ismay",
-    role: "Owner of the White Star Line",
+    role: "Ägaren för White Star Line",
     survived: true,
-    info: "The owner of the company that owned the Titanic. Helped people onboard lifeboats until the last one was off. Entered that one himself. Good for you, Bruce! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    info: "Ägaren för White Star Line, rederiet som ägde Titanic. Under natten båten sjönk hjälpte Bruce Ismay människor ombord i livbåtarna, tills han stod ensam kvar. Då hoppade han ner i en livbåt, trots att det fanns fler ombord som behövde räddas. När båten sjönk har han sagt i intervjuer att han vände sig bort; han klarade inte av att se det. Han förlöjligades sedan i pressen, och kallades för 'Brute' Ismay. Hans biografi, 'How to Survive the Titanic', är skriven av Frances Wilson.",
     img: "../src/assets/Bruce_Ismay.jpeg"
   }
 
   const thomasAndrews = {
     name: "Thomas Andrews",
-    role: "Main architect of the Titanic",
+    role: "Fartygskonstruktör för Titanic",
     survived: false,
-    info: "Managing director and head of the drafting department of the shipbuilding company Harland and Wolff in Belfast, Ireland. Last seen standing in the dining room looking at the clock. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    info: "Andrews var med och skapade 'de tre systrarna' (bestående av RMS Olympic, HMHS Britannic och RMS Titanic). Andrews, tillsammans med andra Harland and Wolff arbetare, brukade närvara på deras fartygs jungfruresor. Titanic var inget undantag, så han reste med fartyget den 10 april 1912. när Titanic kolliderade med ett isberg den 14 april kl. 23:40 kände Andrews kollisionen från sin hytt. Kapten Edward Smith tillkallade sig Andrews för att få klarhet i hur allvarlig skadan var. Andrews talade då om efter några snabba matematiska beräkningar att Titanic skulle sjunka inom en till två timmar. Under det aktiva räddningsarbetet gick han omkring och samtalade med passagerarna och hjälpte dem i livbåtarna. Andrews drog sig sedan undan. Vittnen skall ha sett honom befinna sig i första klass rökrum där han tålmodigt väntade in sin död.",
     img: "../src/assets/Thomas_Andrews.jpg"
   }
 
   const edwardSmith = {
     name: "Edward J. Smith",
-    role: "Captain of the Titanic",
+    role: "Titanics kapten",
     survived: false,
-    info: "The Captain of the ship, who was meant to retire just after the maiden voyage. Did not enter a lifeboat. Also ignored iceberg warnings, so... that happened. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    info: "The Captain of the ship, who was meant to retire just after the maiden voyage. Did not enter a lifeboat. Also ignored iceberg warnings, so... that happened. När den slutgiltiga förlisningen närmade sig befriade han besättningsmännen från sina poster. Han gick in till radiorummet och sade åt telegrafisterna att det nu var upp till dem att rädda sig själva. Steward Edward Brown berättade att kaptenen gick förbi honom på båtdäcket medan han och andra besättningsmän arbetade med en hopfällbar livbåt under förlisningens slutskede. Han ska ha sagt 'gör ert bästa för kvinnorna och barnen, och se efter er själva'. Han ska sedan ha gått mot kommandobryggan. Besättningsmannen Samuel Hemming vittnade om att han såg Smith ensam på bryggan kort innan fartyget gick under. Sedan skiljer sig vittnesmålen kraftigt åt om vad som hände med honom. Många myter som inte har kunnat verifieras har kretsat kring Smiths sista handlingar på fartyget och hans kropp blev aldrig återfunnen.",
     img: "../src/assets/edward_j_smith.jpg"
   }
 
+  //className="people__main"
+
   return (
     <main>
-      <Header />
+      <Header /> 
+      <h1 className="pageHeader">Viktiga personer ombord RMS Titanic</h1>
       <ul>
         <li>
           <Person prop={bruceIsmay}/>

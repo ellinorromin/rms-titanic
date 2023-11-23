@@ -24,10 +24,6 @@ article{
   margin: 1em;
 }
 
-article h1{
-  /* font-size: 1em; */
-}
-
 h2{
   font-size: 1.5em;
 }
@@ -40,8 +36,13 @@ a{
   color: #faf9f6e9;
 }
 
-main h1{
+.pageHeader{
   font-size: 2em;
+  margin: 2em 1em 1em 2em;
+}
+
+.articleHeader{
+  margin-top: 1rem;
 }
 
 img{

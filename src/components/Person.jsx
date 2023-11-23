@@ -26,15 +26,15 @@ function Person(prop) {
     const {info, name, role, survived, img} = prop.prop;
 
   return (
-    <article>
+    <article className='articleHeader'>
         <img src={img} alt={`${name}`} />
         <h1>{name}</h1>
         <h2>{role}</h2>
         <p style={isOpen ? null : paragraphStyles} ref={ref}>{info}</p>
         {showReadMoreBTN && (
-        <button onClick={() => setIsOpen(!isOpen)}>{isOpen ? "Read Less!" : "Read more!"}</button>
+        <button onClick={() => setIsOpen(!isOpen)}>{isOpen ? "Läs mindre!" : "Läs mer!"}</button>
         )}
-        <p>{survived ? "Survived" : "Died"}</p>
+        <p>{survived ? "Överlevde" : "Omkom"}</p>
     </article>
   )
 }

@@ -19,7 +19,7 @@ const navigate = useNavigate();
                         navigate("/")
                     }}
                 >
-                    Home
+                    Start
                 </li>
                 <li
                     className="navbar__li"
@@ -27,7 +27,7 @@ const navigate = useNavigate();
                         navigate("/people")
                     }}
                 >
-                    People
+                    Personer
                 </li>
                 <li
                     className="navbar__li"
@@ -35,7 +35,7 @@ const navigate = useNavigate();
                         navigate("/movies")
                     }}
                 >
-                    Movies
+                    Filmer
                 </li>
             </ul>
         </nav>
