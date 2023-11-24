@@ -26,7 +26,7 @@ function Movie(prop) {
 
   return (
     <article>
-      <img src={img} alt={`Poster for the movie "${title}"`} />
+      <img src={img} alt={`Poster för filmen "${title}"`} />
       <h1 className="articleHeader">{title}</h1>
       <h2>{year}</h2>
       <p style={isOpen ? null : paragraphStyles} ref={ref}>{info}</p>

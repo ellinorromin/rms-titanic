@@ -30,11 +30,11 @@ function Person(prop) {
         <img src={img} alt={`${name}`} />
         <h1>{name}</h1>
         <h2>{role}</h2>
+        <p>{survived ? "Överlevde" : "Omkom"}</p>
         <p style={isOpen ? null : paragraphStyles} ref={ref}>{info}</p>
         {showReadMoreBTN && (
         <button onClick={() => setIsOpen(!isOpen)}>{isOpen ? "Läs mindre!" : "Läs mer!"}</button>
         )}
-        <p>{survived ? "Överlevde" : "Omkom"}</p>
     </article>
   )
 }
